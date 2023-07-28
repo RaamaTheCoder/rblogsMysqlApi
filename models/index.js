@@ -41,7 +41,7 @@ db.posts = require("./postModel.js")(sequelize, DataTypes);
 
 //
 // db.sequelize.sync({ force: false }): This is the method call to synchronize the models with the database. db is an object containing the Sequelize instance with the defined models. The sync() method creates database tables if they don't exist. The force: false option is passed as an argument, which means that Sequelize will not drop the existing tables and recreate them (unless necessary due to model changes). If you set force: true, Sequelize would drop all tables and recreate them, effectively clearing the existing data.
-db.sequelize.sync({ force: false }).then(() => {
+db.sequelize.sync({ force: true }).then(() => {
   console.log("Drop and re-sync db.");
 });
 
