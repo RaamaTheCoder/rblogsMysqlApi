@@ -1,8 +1,22 @@
+// module.exports = {
+//   HOST: "localhost",
+//   USER: "root",
+//   PASSWORD: "1JS15ec071@",
+//   DB: "blogdb",
+//   dialect: "mysql",
+//   pool: {
+//     max: 5,
+//     min: 0,
+//     acquire: 300000,
+//     idle: 100000,
+//   },
+// };
+
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "1JS15ec071@",
-  DB: "blogdb",
+  HOST: "sql6.freesqldatabase.com",
+  USER: "sql6635651",
+  PASSWORD: "nJNpddNgJu",
+  DB: "sql6635651",
   dialect: "mysql",
   pool: {
     max: 5,
@@ -11,20 +25,6 @@ module.exports = {
     idle: 100000,
   },
 };
-
-// module.exports = {
-//   HOST: "sql6.freesqldatabase.com",
-//   USER: "sql6635225",
-//   PASSWORD: "J6Kcvhvylz",
-//   DB: "sql6635225",
-//   dialect: "mysql",
-//   pool: {
-//     max: 20,
-//     min: 0,
-//     acquire: 300000,
-//     idle: 100000,
-//   },
-// };
 
 // HOST: The hostname or IP address of the MySQL database server. In this case, it is set to "localhost", indicating that the MySQL server is running on the same machine as the Node.js application.
 
